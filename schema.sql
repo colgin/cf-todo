@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS Todos;
+CREATE TABLE IF NOT EXISTS Todos (Id INTEGER PRIMARY KEY, TaskName TEXT, TaskStatus INTEGER);
+INSERT INTO Todos (Id, TaskName, TaskStatus) VALUES (1, 'eat', 0);
